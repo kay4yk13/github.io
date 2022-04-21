@@ -1,232 +1,231 @@
 /* Main css for whole doc */
 body {
-    background: #f7d62b;
-    width: 94vw;
-    margin: 0 3vw;
+	background: #f7d62b;
+	width: 94vw;
+	margin: 0 3vw;
 }
 
-/* весь хэдер с флексом */
 .header-container {
-    margin: 2% 3%;
-    /* width: 100vw; */
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    flex-direction: row;
-    padding-bottom: 6%;
+	margin: 2% 3%;
+	/* width: 100vw; */
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	flex-direction: row;
+	padding-bottom: 6%;
 }
 
-/* стили для лого, нава и корзины как дочерних элементов флексбокса header-container*/
 .header-childelement {
-    text-align: center;
+	text-align: center;
 }
 .header-logo {
-    width: 200px;
-    position: relative;
-    display: flex;
-    align-content: left;
-    flex-direction: row;
-    align-items: center;
-    text-decoration: none;
-    font-size: 24px;
+	width: 200px;
+	position: relative;
+	display: flex;
+	align-content: left;
+	flex-direction: row;
+	align-items: center;
+	text-decoration: none;
+	font-size: 24px;
 }
 .header-logo-icon-wrapper {
-    position: relative;
-    width: 45px;
-    height: 45px;
-    background: black;
+	position: relative;
+	width: 45px;
+	height: 45px;
+	background: black;
 }
 .header-logo-icon-text {
-    position: absolute;
-    color: white;
-    font-family: 'Roboto';
-    font-style: normal;
-    text-decoration: none;
-    vertic8l-align: middle;
-    left: 7px;
-    top: 9px;
+	position: absolute;
+	color: white;
+	font-family: "Roboto";
+	font-style: normal;
+	text-decoration: none;
+	vertical-align: middle;
+	left: 7px;
+	top: 9px;
 }
 .header-logo-text {
-    position: relative;
-    margin-left: 5px;
-    text-decoration: none;
-    font-style: normal;
-    font-family: 'Montserrat';
-    color: black;
+	position: relative;
+	margin-left: 5px;
+	text-decoration: none;
+	font-style: normal;
+	font-family: "Montserrat";
+	color: black;
 }
 .navbar a {
-    font-family: 'Monda';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 39px;
-    color: black;
-    text-decoration: none;
-    padding-left: 40px;
+	font-family: "Monda";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 39px;
+	color: black;
+	text-decoration: none;
+	padding-left: 40px;
 }
 .navbar a:hover {
-    color: white;
+	color: white;
 }
 .navbar a:active {
-    text-decoration: underline;
+	text-decoration: underline;
 }
 .button:first-child {
-    padding-left: 0px;
+	padding-left: 0px;
 }
 .cart {
-    width: 200px;
-    text-align: right;
+	width: 200px;
+	text-align: right;
 }
 .cart-logo {
-    position: relative;
-    width: 45px;
-    height: 45px;
+	position: relative;
+	width: 45px;
+	height: 45px;
 }
 
 /* CONTENT, mid of pages */
 .content-container {
-    /* width: 100vw; */
-    margin: 0 5%;
+	/* width: 100vw; */
+	margin: 0 5%;
 }
 /* name of page for each page except index*/
 .content-title {
-    color: white;
-    text-transform: uppercase;
-    position: relative;
-    font-size: 40px;
-    text-decoration-line: underline;
-    text-decoration-style: double;
-    text-align: left;
-    font-family: 'Montserrat';
+	color: white;
+	text-transform: uppercase;
+	position: relative;
+	font-size: 40px;
+	text-decoration-line: underline;
+	text-decoration-style: double;
+	text-align: left;
+	font-family: "Montserrat";
 }
 /* centered text on index page */
 h1 {
-    font-family: 'Montserrat';
-    text-transform: uppercase;
-    color: white;
-    text-align: center;
-    text-shadow: 2px 2px red;
-    font-size: 80px;
-    padding-bottom: 7%;
+	font-family: "Montserrat";
+	text-transform: uppercase;
+	color: white;
+	text-align: center;
+	text-shadow: 2px 2px red;
+	font-size: 80px;
+	padding-bottom: 7%;
 }
 
 /* index page benefits block in flexbox */
 .benefits {
-    display: flex;
-    /* max-width: 85%; */
+	display: flex;
+	/* max-width: 85%; */
 
-    justify-content: space-between;
+	justify-content: space-between;
 }
 .benefits-text {
-    text-align: center;
-    font-family: 'Montserrat';
+	text-align: center;
+	font-family: "Montserrat";
 }
 h2 {
-    max-width: 80%;
-    font-size: 24px;
-    color: black;
-    text-align: center;
-    font-family: 'Montserrat';
+	max-width: 80%;
+	font-size: 24px;
+	color: black;
+	text-align: center;
+	font-family: "Montserrat";
 }
 p {
-    max-width: 80%;
-    color: black;
-    font-size: 20px;
-    font-family: 'Montserrat';
-    text-align: left;
-    text-shadow: 4px 4px 4px red;
+	max-width: 80%;
+	color: black;
+	font-size: 20px;
+	font-family: "Montserrat";
+	text-align: left;
+	text-shadow: 4px 4px 4px red;
 }
 .product-grid {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 10%;
-    justify-content: space-between;
-    flex-direction: row;
-    align-content: space-around;
-    margin-top: 5%;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 10%;
+	justify-content: space-between;
+	flex-direction: row;
+	align-content: space-around;
+	margin-top: 5%;
 }
 .product-item {
-    width: 25%;
-    background-color: black;
-    box-shadow: 4px 4px rgb(248, 246, 246);
-    text-align: center;
-    font-family: 'Montserrat';
-    margin-bottom: 4%;
+	width: 25%;
+	background-color: black;
+	box-shadow: 4px 4px rgb(248, 246, 246);
+	text-align: center;
+	font-family: "Montserrat";
+	margin-bottom: 4%;
 }
 .product-item-h1 {
-    position: relative;
-    text-align: center;
-    color: white;
-    text-transform: uppercase;
-    font-size: 20px;
-    padding-top: 5%;
-    margin-bottom: 5%;
+	position: relative;
+	text-align: center;
+	color: white;
+	text-transform: uppercase;
+	font-size: 20px;
+	padding-top: 5%;
+	margin-bottom: 5%;
 }
 .product-item img {
-    width: 66%;
-    margin-bottom: 5%;
+	width: 66%;
+	margin-bottom: 5%;
 }
 .product-item-p {
-    color: white;
-    text-align: justify;
-    width: 75%;
-    padding-left: 13%;
+	color: white;
+	text-align: justify;
+	width: 75%;
+	padding-left: 13%;
 }
 .quantity {
-    display: inline-block;
-    color: white;
-    margin-left: 5%;
-    padding-top: 5%;
-    width: 35%;
-    text-align: left;
+	display: inline-block;
+	color: white;
+	margin-left: 5%;
+	padding-top: 5%;
+	width: 35%;
+	text-align: left;
 }
 .cost {
-    display: inline-block;
-    color: white;
-    margin-right: 5%;
-    padding-top: 5%;
-    width: 35%;
-    text-align: right;
+	display: inline-block;
+	color: white;
+	margin-right: 5%;
+	padding-top: 5%;
+	width: 35%;
+	text-align: right;
 }
 .tocartbutton {
-    width: 50%;
-    text-decoration: none;
-    display: inline-block;
-    background: #e48900;
-    color: white;
-    text-transform: uppercase;
-    font-size: 12px;
-    font-family: 'Montserrat';
-    line-height: 28px;
-    margin-top: 5%;
-    margin-bottom: 10%;
+	width: 50%;
+	text-decoration: none;
+	display: inline-block;
+	background: #e48900;
+	color: white;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-family: "Montserrat";
+	line-height: 28px;
+	margin-top: 5%;
+	margin-bottom: 10%;
 }
 
 /* Contacts */
 .adress {
-    margin-top: 5%;
+	margin-top: 5%;
+	text-align: justify;
 }
 
 /* Testimonials */
 .testimonials-list {
-    margin-top: 5%;
-    font-family: 'Montserrat';
+	margin-top: 5%;
+	font-family: "Montserrat";
 }
 .testimonial img {
-    border-radius: 50%;
-    align-items: baseline;
+	border-radius: 50%;
+	align-items: baseline;
 }
 .testimonial-text {
-    /* display:inline; */
-    align-items: baseline;
-    margin-left: 20px;
+	/* display:inline; */
+	align-items: baseline;
+	margin-left: 20px;
 }
 .testimonial {
-    margin: 2% 0;
-    /* float:left; */
-    display: flex;
-    align-items: center;
-    flex-direction: row;
+	margin: 2% 0;
+	/* float:left; */
+	display: flex;
+	align-items: center;
+	flex-direction: row;
 }
