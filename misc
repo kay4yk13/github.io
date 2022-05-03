@@ -1,0 +1,141 @@
+// prettier-ignore
+- home
+    header
+        logo (square+text), text
+            a.logo-wrapper
+                children:
+                    - logo (div)
+                        parameters: square size black background
+                        children:
+                            - span SK
+                    - text
+
+        navbar
+            elements
+                behavior
+        cart logo
+            behavior
+            cart text
+    content
+        midle text (slogan)
+        benefits
+            headline x3
+            text x3
+    footer(empty)
+
+- catalog
+    header
+        logo (square+text), text
+        navbar
+            elements
+                behavior
+        cart logo
+            behavior
+            cart text
+    content
+        headline
+        goods
+            blocks(3x2)
+                frame
+                headline
+                description(short)
+                picture
+                measure
+                price
+                button(add to cart)
+                    behavior
+            pop-up frame
+                headline
+                descriptin(full)
+                picture
+                measure
+                price
+                button(add to cart)
+                    behavior
+
+- contacts
+    header
+        logo (square+text), text
+        navbar
+            elements
+                behavior
+        cart logo
+            behavior
+            cart text
+    content
+        headline
+        text
+        G-map
+
+- testimonials
+    header
+        logo (square+text), text
+        navbar
+            elements
+                behavior
+        cart logo
+            behavior
+            cart text
+    content
+        headline
+        cirkle
+        text
+        line
+        (repeat x3)
+
+- cart
+    header
+        logo (square+text), text
+        navbar
+            elements
+                behavior
+        cart logo
+            behavior
+            cart text
+    content
+
+
+
+    use 3 functions
+    - renderCatalogProducts()
+        - count products
+        - for each product do (loop):
+            - prepareProductHTML(product) return ProductHtml
+                - product template can be there 
+            - appendProductToDOM(productHTML)
+
+            
+visible changes.
+
+Add to cart button
+    -product adds to cart
+    -color changes 
+    -button became inactive (or changes another way e.g. link to cart directly)
+
+Cart header box
+    -icon changes to filled
+    -products counter change its value
+    -invoice sum changes
+    -its state saves while goes to another page
+
+Cart page
+    -rendering a table of products
+    -oppsite each product shows its cost; quantity with posibility to change it
+    -TOTAL row with sum of all costs
+    -proceed to checkout button
+
+
+
+
+Onclick "add to curt button"
+    - change button color
+        - save state to localstorage
+    - change subtotal price
+        - save state to localstorage
+        - rerender cart widget
+    - change subtotal items
+        - save state to localstorage
+        - rerender cart widget
+
+    - add to "cart" array 
+
