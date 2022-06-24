@@ -1,5 +1,4 @@
-# study
+Simple implementation of an online store in javascript.
+Dynamically rendered catalog and cart items can be easily replaced with any content.
 
-my studying folder
-just for learning
 # github.io
