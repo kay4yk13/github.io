@@ -3,19 +3,20 @@
 
 <head>
   <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <title>Denis Klimovich</title>
-  <meta content="CV Page of front-end developer Denis KLimovich" name="description">
-  <meta content="webdev, vuejs, html, css, js, javascript, frontend, front-end, development" name="keywords">
-
+  <meta name="description" content="CV Page of front-end developer Denis KLimovich" >
+  <meta name="keywords" content="webdev, vuejs, html, css, js, javascript, frontend, front-end, development" >
+  <meta name="image" content="https://kay4yk13.github.io/">
   <!-- Favicons -->
   <link href="assets/img/favicon.ico" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
@@ -38,7 +39,8 @@
     <div class="d-flex flex-column">
 
       <div class="profile">
-        <img src="assets/img/profile-img.jpg" alt="" class="img-fluid rounded-circle">
+        <a href="#me">
+        <img src="assets/img/profile-img.jpg" alt="my photo" class="img-fluid rounded-circle"></a>
         <h1 class="text-light"><a href="#me">Denis Klimovich</a></h1>
         <div class="social-links mt-3 text-center">
           <a href="https://t.me/DenDanger" class="telegram" target="_blank"><i class="bx bxl-telegram"></i></a>
@@ -50,7 +52,7 @@
 
       <nav id="navbar" class="nav-menu navbar">
         <ul>
-          <li><a href="#me" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Hello!</span></a></li>
+          <li><a href="#me" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Hello</span></a></li>
           <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
           <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
           <br>
@@ -85,11 +87,11 @@
           </div>
           <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
             <h3>Front-end Developer</h3>
-            <p class="fst-italic">
+            <p>
               I've succesfully worked in different business areas, from sales to logistics, but they all revolved around the IT world and were heavily dependent on web solutions. <br>
               Now I decided to change my life and not only to use the product, but to create it myself! Authoritative colleagues say that it turns out great!
             </p>
-            <p class="fst-italic">
+            <p>
               I am self-organized, but not a closed person. I can easily ask for advice and will gladly help if asked.<br>
             </p>
             <div class="row">
@@ -117,58 +119,121 @@
             <br>God bless the author of hotkeys!</p>
         </div>
         <div class="row no-gutters">
-          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
-            <div class="count-box">
+          <div class="col-lg-3 col-md-6 col-sm-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
+            <div class="single-tech-box">
               <i class="bx bxl-vuejs"></i>
-              <p>Vue.js / vuex</p>
+              <p>Vue.js</p>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="300">
-            <div class="count-box">
+          <div class="col-lg-3 col-md-6 col-sm-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="100">
+            <div class="single-tech-box">
               <i class='bx bxl-javascript'></i>
               <p>JavaScript</p>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="100">
-            <div class="count-box">
+          <div class="col-lg-3 col-md-6 col-sm-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="100">
+            <div class="single-tech-box">
               <i class="bx bxl-html5"></i>
               <p>HTML 5</p>
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="200">
-            <div class="count-box">
+          <div class="col-lg-3 col-md-6 col-sm-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="100">
+            <div class="single-tech-box">
               <i class="bx bxl-css3"></i>
               <p>CSS3, SASS</p>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="300">
-            <div class="count-box">
+          <div class="col-lg-3 col-md-6 col-sm-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="200">
+            <div class="single-tech-box">
               <i class='bx bxl-bootstrap'></i>
               <p>Bootstrap</p>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="300">
-            <div class="count-box">
+          <div class="col-lg-3 col-md-6 col-sm-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="200">
+            <div class="single-tech-box">
               <i class="bx bxl-git"></i>
               <p>Git</p>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="300">
-            <div class="count-box">
+          <div class="col-lg-3 col-md-6 col-sm-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="300">
+            <div class="single-tech-box">
               <i class='bx bxl-docker'></i>
               <p>Docker</p>
             </div>
           </div> 
-          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="300">
-            <div class="count-box">
+          <div class="col-lg-3 col-md-6 col-sm-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="300">
+            <div class="single-tech-box">
               <i class='bx bx-data' ></i>
               <p>SQL</p>
             </div>
           </div>
         </div>
       </div>
-    </section><!-- End stack Section -->
+    </section>
+    <!-- End stack Section -->
+
+        <!-- ======= Benefits Section ======= -->
+        <section id="benefits" class="benefits">
+          <div class="container">
+    
+            <div class="section-title">
+              <h2>My benefits</h2>
+            </div>
+            <div class="row no-gutters">
+              <div class="col-lg-3 col-md-6 col-sm-6 d-md-flex align-items-md-stretch" data-aos="fade-down">
+                <div class="single-benefit-box">
+                  <i class='bx bxs-circle'></i>
+                  <p>I studied with an experienced mentor, inheriting best practices.</p>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-6 d-md-flex align-items-md-stretch" data-aos="fade-down" data-aos-delay="100">
+                <div class="single-benefit-box">
+                  <i class='bx bxs-circle'></i>
+                  <p>Familiar with a git flow, pull requests, branching, conflicts resolving, reviewing.</p>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-6 d-md-flex align-items-md-stretch" data-aos="fade-down" data-aos-delay="100">
+                <div class="single-benefit-box">
+                  <i class='bx bxs-circle'></i>
+                  <p>Good at decomposing any tasks on smaller and prototyping/ pseudocoding before start</p>
+                </div>
+              </div>
+    
+              <div class="col-lg-3 col-md-6 col-sm-6 d-md-flex align-items-md-stretch" data-aos="fade-down" data-aos-delay="100">
+                <div class="single-benefit-box">
+                  <i class='bx bxs-circle'></i>
+                  <p>Have some alghoritms experience</p>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-6 d-md-flex align-items-md-stretch" data-aos="fade-down" data-aos-delay="200">
+                <div class="single-benefit-box">
+                  <i class='bx bxs-circle'></i>
+                  <p>Feel free with npm and searching / picking best for task packages (up-to-date support, flexibility, compatibility)  </p>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-6 d-md-flex align-items-md-stretch" data-aos="fade-down" data-aos-delay="200">
+                <div class="single-benefit-box">
+                  <i class='bx bxs-circle'></i>
+                  <p>Advanced linux user</p>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-6 d-md-flex align-items-md-stretch" data-aos="fade-down" data-aos-delay="300">
+                <div class="single-benefit-box">
+                  <i class='bx bxs-circle'></i>
+                  <p>Follows team code-style. Can do it by hands, but prefer eslint/Prettier automatization</p>
+                </div>
+              </div> 
+              <div class="col-lg-3 col-md-6 col-sm-6 d-md-flex align-items-md-stretch" data-aos="fade-down" data-aos-delay="300">
+                <div class="single-benefit-box">
+                  <i class='bx bxs-circle'></i>
+                  <p>Figma user. No hate to designers, i try to embody any crazy ideas</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- End stack Section -->
 
     <!-- ======= Portfolio Section ======= -->
     <section id="portfolio" class="portfolio section-bg">
@@ -176,35 +241,34 @@
 
         <div class="section-title">
           <h2>Portfolio</h2>
-          <p>Here are some of my projects. More information inside...</p>
+          <p>Here are some of my projects, look inside for details</p>
         </div>
 
         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <p>Online store | Vue.js</p>
+            <h4>Online store | Vue.js</h4>
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="portfolio-details-1.html" title="More Details">See details</a>
+                <a href="portfolio-details-1.html"><i class='bx bx-show'></i><p> Full info </p></a>
               </div>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <p>Tetris | Vue.js</p>
+            <h4>Tetris | Vue.js</h4>
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="portfolio-details-2.html" title="More Details">See details</a>
+                <a href="portfolio-details-2.html"><i class='bx bx-show'></i><p> Full info </p></a>
               </div>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <p>Not yet</p>
+            <h4>Not yet</h4>
             <div class="portfolio-wrap">
-             
               <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
               <div class="portfolio-links">
               </div>

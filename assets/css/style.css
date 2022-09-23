@@ -1,6 +1,6 @@
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Nunito', sans-serif;
   color: #272829;
 }
 
@@ -20,7 +20,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Nunito', sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -87,7 +87,6 @@ h6 {
   font-weight: 600;
   -moz-text-align-last: center;
   text-align-last: center;
-  font-family: "Poppins", sans-serif;
 }
 
 #header .profile h1 a,
@@ -252,7 +251,6 @@ h6 {
   color: #fff;
   margin-bottom: 50px;
   font-size: 26px;
-  font-family: "Poppins", sans-serif;
 }
 
 #me p span {
@@ -359,30 +357,67 @@ section {
 /*--------------------------------------------------------------
 # stack
 --------------------------------------------------------------*/
-.stack {
+.stack  {
   padding-bottom: 30px;
 }
 
-.stack .count-box {
+.stack .single-tech-box {
   padding: 30px;
   width: 100%;
+  display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
 }
 
-.stack .count-box i {
+.stack .single-tech-box i {
   display: block;
   font-size: 44px;
   color: #149ddd;
   float: left;
   line-height: 44px;
 }
-.stack .count-box i:hover {
+.stack .single-tech-box i:hover {
   color: #5280a3;;
 }
 
-.stack .count-box p {
-  /* padding: 15px 0 0 0; */
-  margin: 0 0 0 50px;
-  font-family: "Raleway", sans-serif;
+.stack .single-tech-box p {
+  margin: 0 0 0 16px;
+  font-size: 18px;
+  color: #122f57;
+  cursor:default;
+}
+/*--------------------------------------------------------------
+# Benefits
+--------------------------------------------------------------*/
+
+.benefits {
+  padding-bottom: 30px;
+}
+
+.benefits .single-benefit-box {
+  padding: 30px;
+  width: 100%;
+  display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+}
+
+.benefits .single-benefit-box i {
+  display: block;
+  font-size: 22px;
+  color: #149ddd;
+  float: left;
+  line-height: 44px;
+}
+
+.benefits .single-benefit-box i:hover {
+  color: #5280a3;;
+}
+
+.benefits .single-benefit-box p {
+  margin: 0 0 0 16px;
   font-size: 18px;
   color: #122f57;
   cursor:default;
@@ -426,9 +461,11 @@ section {
   transition: all ease-in-out 0.3s;
   display: flex;
   justify-content: center;
-  align-items: stretch
+  align-items: center
 }
-
+.portfolio .portfolio-wrap .portfolio-links p {
+  margin-top: 10px;
+}
 .portfolio .portfolio-wrap .portfolio-links a {
   color: #fff;
   font-size: 28px;
@@ -436,6 +473,9 @@ section {
   background: rgba(82, 128, 163, 0.55);
   transition: 0.3s;
   width: 100%;
+  display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
